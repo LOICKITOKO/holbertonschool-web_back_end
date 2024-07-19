@@ -1,3 +1,4 @@
-import { taskFirst, taskNext } from './0-constants.js';
+import ClassRoom from "./0-classroom.js";
 
-console.log(`${taskFirst()} ${taskNext()}`);
+const room = new ClassRoom(10);
+console.log(room._maxStudentsSize)
